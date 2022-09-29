@@ -1,0 +1,43 @@
+.comments p{
+    margin-right: 40px;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+.comments span{
+    margin-right: 40px;
+    font-style: italic;
+    font-size: 0.8rem;
+    display: block;
+}
+.comments{
+    position: relative;
+    left: 7px;
+    width: 100%;
+    border: 1px solid #1b1a1d;
+    border-radius: 30px;
+
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.post{
+    margin-bottom: 10px;
+}
+.cmnt{
+    position: relative;
+    left: 70px;
+    width: 90%;
+    padding: 20px;
+    top: -11px;
+    border: 1px solid #1f9536;
+}
+.num{
+    border-radius: 50%;
+    padding: 1px 8px;
+    font-weight: bolder;
+    color: black;
+    background-color: rgb(232, 37, 53);
+    font-size: 17px;
+}
+.show-cmnts{
+    cursor: pointer;
+}
